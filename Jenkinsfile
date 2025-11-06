@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling the C program...'
-                sh 'gcc -o app SP.c'
+                sh 'gcc -o app sp.c'
             }
         }
 
